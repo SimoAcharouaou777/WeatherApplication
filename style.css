@@ -80,3 +80,18 @@ height: 80px;
     color: hsl(200 , 100% , 20%);
     padding-top:0.5rem;
 }
+.hour-section{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+.hour-row{
+    background-color: hsl(200,65%,75%);
+}
+.hour-row:nth-child(2n){
+    background-color: hsl(200,65%,69%);
+}
+.hour-row >td {
+    padding: 0.25rem 0.5rem ;
+    
+}
